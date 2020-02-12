@@ -4,5 +4,6 @@ description: 'Perform WOSPM/Checker to the repository'
 outputs:
   time: # id of output
     description: 'The result report'
+runs:
   using: 'docker'
   image: 'Dockerfile'
