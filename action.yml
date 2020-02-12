@@ -8,3 +8,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: 'award'
+  color: 'green'
+ 
