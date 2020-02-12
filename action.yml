@@ -1,0 +1,8 @@
+# action.yml
+name: 'WOSPM Checker Github Action'
+description: 'Perform WOSPM/Checker to the repository'
+outputs:
+  time: # id of output
+    description: 'The result report'
+  using: 'docker'
+  image: 'Dockerfile'
