@@ -11,3 +11,8 @@ jobs:
       - name: WOSPM Checker action step
         uses: ./ # Uses an action in the root directory
         id: wospm_checker
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v1
+        with:
+          name: HTML Report
+          path: wospm.html

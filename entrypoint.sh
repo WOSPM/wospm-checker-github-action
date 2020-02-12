@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-wospm-checker
+wospm-checker --output HTML
