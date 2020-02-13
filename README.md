@@ -1,6 +1,6 @@
 # WOSPM Checker Github Action
 
-This action is for executing [WOSPM Checker](https://github.com/WOSPM/checker) tool in your pipeline. It will create reports which are downloadable as artifacts.
+This action is for executing [WOSPM Checker](https://github.com/WOSPM/checker) tool in your pipeline. It will create HTML report which is downloadable as artifact.
 
 ## Inputs
 
