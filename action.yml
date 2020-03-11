@@ -3,7 +3,7 @@ name: 'WOSPM Checker Github Action'
 description: 'Perform WOSPM/Checker to the repository'
 color: 'green'
 outputs:
-  time: # id of output
+  report: # id of output
     description: 'The result report'
 runs:
   using: 'docker'
